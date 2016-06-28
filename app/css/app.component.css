@@ -1,0 +1,32 @@
+#mainView {
+	position:absolute;
+	display:inline-block;
+
+	border:5px solid white;
+	border-radius:5px;
+	width:1200px;
+	height:750px;
+
+	top:50%;
+	left:50%;
+	margin-left:-600px;
+	margin-top:-375px;
+}
+
+#center {
+	width:50px;
+	height:50px;
+	top:50%;
+	left:50%;
+	margin-left:-27px;
+	margin-top:-27px;
+	border:2px solid white;
+	position:absolute;
+}
+
+draw-panel {
+	display:inline-block;
+	height:750px;
+	width:575px;
+	position:absolute;
+}

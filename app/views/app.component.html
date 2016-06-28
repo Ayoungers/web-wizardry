@@ -1,0 +1,15 @@
+<div id=mainView>
+	<div style="position:absolute;left:0;height:750px;width:575px;top:0;display:inline-block" class="left-facing">
+		<draw-panel [feature]="'wall'" [isLeftFacing]="true" [distance]="0"></draw-panel>			
+		<draw-panel [feature]="'door'" [isLeftFacing]="true" [distance]="1"></draw-panel>
+		<draw-panel [feature]="'hall'" [isLeftFacing]="true" [distance]="2"></draw-panel>
+		<draw-panel [feature]="'wall'" [isLeftFacing]="true" [distance]="3"></draw-panel>
+	</div>
+	<div id=center></div>	
+	<div style="position:absolute;right:0;height:750px;width:575px;top:0;display:inline-block" class="right-facing">
+		<draw-panel [feature]="'hall'" [isLeftFacing]="false" [distance]="3"></draw-panel>
+		<draw-panel [feature]="'wall'" [isLeftFacing]="false" [distance]="2"></draw-panel>
+		<draw-panel [feature]="'wall'" [isLeftFacing]="false" [distance]="1"></draw-panel>
+		<draw-panel [feature]="'hall'" [isLeftFacing]="false" [distance]="0"></draw-panel>
+	</div>
+</div>
